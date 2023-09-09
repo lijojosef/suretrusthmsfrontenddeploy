@@ -7,10 +7,18 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import AddUser from './users/AddUser';
 // import EditUser from './users/EditUser';
 // import ViewUser from "./users/ViewUser";
-import LandingPage from "./components/LandingPage/landingpage.js";
-import AdminLogin from "./components/AdminLogin/adminlogin.js";
-import DoctorLogin from "./components/DoctorLogin/doctorlogin.js";
-import PatientLogin from "./components/PatientLogin/patientlogin.js";
+// import LandingPage from "./components/LandingPage/landingpage.js";
+// import AdminLogin from "./components/AdminLogin/adminlogin.js";
+// import DoctorLogin from "./components/DoctorLogin/doctorlogin.js";
+// import PatientLogin from "./components/PatientLogin/patientlogin.js";
+
+
+import Home from './components/PharmacyManagement/Home/Home';
+import AddDrug from './components/PharmacyManagement/DrugOperation/AddDrug/AddDrug';
+import DrugSearch from './components/PharmacyManagement/DrugOperation/SearchDrug/Search';
+import UpdateDrug from './components/PharmacyManagement/DrugOperation/UpdateDrug/UpdateDrug';
+import Billing from  './components/PharmacyManagement/Billing/Billing';
+import Expiry from './components/PharmacyManagement/Billing/Billing';
 
 
 function App() {
@@ -25,6 +33,14 @@ function App() {
           <Route exact path="/edituser/:id" element={<EditUser />}/>
           <Route exact path="/viewuser/:id" element={<ViewUser />} /> */}
 
+          {/* <Route path='/' element={<Home />} />
+          <Route path='/addDrug' element={<AddDrug />} />
+          <Route path='/updateDrug/:id' element={<UpdateDrug />} />
+          <Route path='/drugSearch' element={<DrugSearch />} />
+          <Route path='/bill' element={<Billing />} />
+          <Route path='/expiry' element={<Expiry />} /> */}
+
+          
           <Route exact path="/" element={<LandingPage />} />
           <Route exact path="/adminlogin" element={<AdminLogin />} />
           <Route exact path="/doctorlogin" element={<DoctorLogin />} />

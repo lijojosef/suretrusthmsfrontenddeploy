@@ -1,0 +1,15 @@
+.bill{
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    padding-bottom: 30px;
+    color: purple;
+}
+.medicine_b{
+    padding: 10px;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Navbar from "../../Navbar/Navbar";
 import './AddDrug.css'
+import Footer from '../../../Footer/copyright';
+
 
 export default function AddDrug() {
   let navigate = useNavigate();
@@ -24,7 +26,7 @@ export default function AddDrug() {
     e.preventDefault();
     try {
       await axios.post("http://localhost:8090/stock", drug);
-      navigate("/");
+      navigate("/pharmacyHome");
     } catch (error) {
       console.error("Axios Error:", error);
     }
@@ -94,7 +96,7 @@ export default function AddDrug() {
               Add
             </button>
             <button className="btn">
-            <Link to="/">
+            <Link to="/pharmacyHome">
               Cancel
             </Link>
             </button>
@@ -102,6 +104,7 @@ export default function AddDrug() {
         </div>
       </div>
     </div>
+    <Footer />
    </div>
   );
 }

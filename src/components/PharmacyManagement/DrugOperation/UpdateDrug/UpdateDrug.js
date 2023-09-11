@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate, useParams, Link } from "react-router-dom";
 import './Update.css'
 import Navbar from "../../Navbar/Navbar";
+import Footer from '../../../Footer/copyright';
 
 export default function UpdateDrug() {
   let navigate = useNavigate();
@@ -123,7 +124,7 @@ export default function UpdateDrug() {
               Update
             </button>
            <button className="btn">
-           <Link  to="/">
+           <Link  to="/pharmacyHome">
               Cancel
             </Link>
            </button>
@@ -131,6 +132,7 @@ export default function UpdateDrug() {
         </div>
       </div>
     </div>
+    <Navbar />
    </div>
   );
 }

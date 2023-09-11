@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Navbar from "../Navbar/Navbar";
 import "./Billing.css";
+import Footer from '../../Footer/copyright';
 
 export default function BillGenerator() {
   const [medicineName, setMedicineName] = useState("");
@@ -56,6 +57,7 @@ export default function BillGenerator() {
           </div>
         )}
       </div>
+      <Footer />
     </div>
   );
 }

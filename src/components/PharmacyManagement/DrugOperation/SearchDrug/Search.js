@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Search.css";
 import Navbar from "../../Navbar/Navbar";
+import Footer from '../../../Footer/copyright';
 
 export default function DrugSearch() {
   const [medicineName, setMedicineName] = useState("");
@@ -68,6 +69,7 @@ export default function DrugSearch() {
         </div>
       </div>
     </div>
+    <Footer />
     </div>
   );
 }

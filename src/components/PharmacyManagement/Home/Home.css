@@ -1,11 +1,17 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .homeContainer {
-    margin-top: 20px;
+  flex-grow: 1;
+  margin-top: 20px;
+  margin: 20px 100px;
   }
   
   .py{
-    margin: 20px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: 20px 100px;
   }
   table {
     width: 100%;
@@ -36,6 +42,11 @@
   .btn:hover {
     background-color: rgb(207, 91, 201);
   }
+
+  .btn:hover {
+    background-color: rgb(207, 91, 201);
+  }
+  
   .table a {
     color: white;
     text-decoration: none;

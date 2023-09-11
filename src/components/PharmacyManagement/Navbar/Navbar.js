@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="menu-link">
           <ul>
             <li className="nav-item">
-              <Link to="/">Home</Link>
+              <Link to="/pharmacyHome">Home</Link>
             </li>
             <li className="nav-item">
               <Link to="/addDrug">Add Drug</Link>

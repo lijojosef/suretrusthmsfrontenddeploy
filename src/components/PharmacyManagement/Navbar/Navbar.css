@@ -50,14 +50,16 @@
   .menu-link ul{
     height : 10rem;
     display: flex;
-    margin-top: 7px;
+    margin-top: 2px;
     justify-content: space-around;
     align-items: center;
   }
   
   .menu-link a {
     color: white;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: large;
+
   }
   
   .menu-link a:hover {

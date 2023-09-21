@@ -1,4 +1,17 @@
 /* Billing.css */
+.mainBill{
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  height: 80px;
+  background-color: purple;
+  color : white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 80px;
+}
+
 .cont{
   width: 80%;
   max-width: 1000px;
@@ -7,6 +20,7 @@
   border : 2px solid black;
   box-sizing: border-box; 
 }
+
 
 .print-header p {
   font-size: large;
@@ -49,3 +63,4 @@
   margin: 0 auto;
   padding: 5px;
 }
+

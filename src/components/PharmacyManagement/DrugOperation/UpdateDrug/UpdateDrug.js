@@ -132,7 +132,7 @@ export default function UpdateDrug() {
         </div>
       </div>
     </div>
-    <Navbar />
+    <Footer />
    </div>
   );
 }

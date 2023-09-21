@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./Billing.css";
-import Navbar from "../Navbar/Navbar";
+// import Navbar from "../Navbar/Navbar";
 import Footer from "../../Footer/copyright";
 
 function Billing() {
@@ -58,7 +58,10 @@ function Billing() {
 
   return (
     <div className="main-container">
-      <Navbar />
+      {/* <Navbar /> */}
+      <div className="mainBill">
+      <h2>Welcome to Sure Trust Multispeciality Hospital</h2>
+      </div>
       <div className="cont">
         <div className="print-header">
           <p>Bill</p>

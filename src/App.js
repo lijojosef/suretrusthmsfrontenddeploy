@@ -40,7 +40,7 @@ function App() {
           <Route path='/bill' element={<Billing />} />
           {/* <Route path='/expiry' element={<Expiry/>} /> */}
 
-          
+          {/*added by lijo for testing*/}
           <Route exact path="/" element={<LandingPage />} />
           <Route exact path="/adminlogin" element={<AdminLogin />} />
           <Route exact path="/doctorlogin" element={<DoctorLogin />} />

@@ -1,0 +1,227 @@
+/* Reset some default styles */
+button {
+  background-color: #65327e;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none; /* Remove underlines */
+}
+
+/* Overall container styles */
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #65327e;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header .logo img {
+  max-width: 100px; /* Adjust the size as needed */
+}
+
+.header .logout-button button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Horizontal Line */
+.horizontal-line {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+/* Menu styles */
+.menu {
+  margin-top: 20px;
+  margin-left: -1094px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+  background-color: rgba(78, 88, 99, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu li:hover {
+  color: #007bff; /* Change to your preferred hover color */
+}
+
+/* Watermark */
+.watermark {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.2; /* Adjust the opacity as needed */
+  z-index: -1;
+}
+
+.watermark img {
+  max-width: 200px; /* Adjust the size as needed */
+}
+
+/* Filter section styles */
+.filter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 2; /* Place it above other elements */
+}
+
+.filter-popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-header h2 {
+  margin: 0;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filter-dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.view-list-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* SearchEmployeePopup.css */
+
+/* Style for the search employee popup */
+.search-employee-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.search-employee-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 300px; /* Adjust the width as needed */
+}
+
+/* Style for the header of the popup */
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the close button */
+.close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #999;
+}
+
+.close-button:hover {
+  color: #000;
+}
+
+/* Style for the input container */
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the button container */
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  background-color: #65327e;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}

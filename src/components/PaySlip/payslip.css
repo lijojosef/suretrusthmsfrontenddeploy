@@ -1,0 +1,240 @@
+/* Add your CSS styles here */
+/* payslip.css */
+
+/* Container styles */
+p {
+  text-align: center;
+}
+.payslip-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #eee4e4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 68px;
+}
+
+/* Title styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #65327e;
+}
+
+/* Input section styles */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Button styles */
+.button-section {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Error message styles */
+.error-message {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.error-message span {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+/* Pay slip overview styles */
+.pay-slip-overview {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Download buttons styles */
+.download-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Logo styles */
+img {
+  max-width: 100%;
+}
+
+/* Additional styles can be added as needed */
+
+.pay-slip-generator {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.pay-slip-overview {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pay-slip-overview h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pay-slip-overview .hospital-logo {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+  /* Add your logo image as a background or an <img> element here */
+}
+
+.pay-slip-overview .employee-details {
+  margin-top: 20px;
+}
+
+.pay-slip-overview .employee-details p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.pay-slip-overview .earnings-table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pay-slip-overview .earnings-table th,
+.pay-slip-overview .earnings-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.pay-slip-overview .earnings-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.pay-slip-overview .deductions-table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pay-slip-overview .deductions-table th,
+.pay-slip-overview .deductions-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.pay-slip-overview .deductions-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.pay-slip-overview .net-pay {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pay-slip-overview .message {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}

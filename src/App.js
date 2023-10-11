@@ -8,6 +8,7 @@ import AddUser from "./users/AddUser";
 import EditUser from "./users/EditUser";
 import ViewUser from "./users/ViewUser";
 import LandingPage from "./components/LandingPage/landingpage.js";
+//import LandingPage from "./components/DoctorConsultationFees/drfees.js";
 import AdminLogin from "./components/AdminLogin/adminlogin.js";
 import DoctorLogin from "./components/DoctorLogin/doctorlogin.js";
 import PatientLogin from "./components/PatientLogin/patientlogin.js";

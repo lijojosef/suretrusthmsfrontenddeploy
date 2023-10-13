@@ -64,13 +64,13 @@ body {
   background-color: #65327e;
   padding: 12px;
   border-radius: 16px;
-  margin-top: 174px;
+  margin-top: 134px;
   position: fixed;
   top: -11px;
   z-index: 199;
-  /*width: -moz-fit-content;*/
+  width: -moz-fit-content;
   width: fit-content;
-  margin-left: 61rem;
+  margin-left: 104rem;
   width: fit-content;
 }
 /*
@@ -170,7 +170,9 @@ body {
   padding: 0; /* Remove padding from the list items */
   pointer-events: auto;
 }
-
+.phonenumber {
+  color: white;
+}
 .dropdown-menu li a {
   display: block;
   color: #333;

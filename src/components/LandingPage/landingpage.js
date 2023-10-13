@@ -20,11 +20,11 @@ function LandingPage() {
         <div className="contact-info">
           <div className="phone">
             <i className="fas fa-phone fas fa-user fa-icon"></i>
-            <p>+91 6295445426</p>
+            <p className="phonenumber">+91 6295445426</p>
           </div>
           <div className="ambulance">
             <i className="fas fa-ambulance fas fa-ambulance fa-icon"></i>
-            <p>+91 9834678910</p>
+            <p className="phonenumber">+91 9834678910</p>
           </div>
         </div>
       </header>

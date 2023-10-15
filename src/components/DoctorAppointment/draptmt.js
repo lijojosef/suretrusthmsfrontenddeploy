@@ -106,7 +106,6 @@ const DoctorAppointmentForm = () => {
             required
           />
         </div>
-
         <div className="section-heading">Communication Address</div>
         <div className="form-group">
           <input
@@ -160,7 +159,6 @@ const DoctorAppointmentForm = () => {
             required
           />
         </div>
-
         <div className="section-heading">Appointment Details</div>
         <div className="form-group">
           <select
@@ -204,7 +202,6 @@ const DoctorAppointmentForm = () => {
             <option value="Evening">Evening</option>
           </select>
         </div>
-
         <div className="section-heading">Preferred Visit Mode</div>
         <div className="form-group">
           <label>
@@ -228,7 +225,6 @@ const DoctorAppointmentForm = () => {
             Tele-health
           </label>
         </div>
-
         <div className="button-container">
           <button type="reset">Reset</button>
           <button type="submit">Submit</button>

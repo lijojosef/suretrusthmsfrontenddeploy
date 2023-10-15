@@ -1,6 +1,163 @@
-.text {
-  font-size: 14px;
-  color: #888;
+/* Footer Container */
+.footer-container {
+  background-color: #65327e;
+  color: #fff;
+  padding: 40px 0;
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Logo */
+.footer-logo h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-logo p {
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+/* Footer Menu */
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-menu li {
+  margin-bottom: 15px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.footer-menu a:hover {
+  color: #fff;
+}
+
+/* Newsletter Section */
+.newsletter h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.newsletter-input input {
+  width: 70%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.newsletter-input button {
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 25px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.newsletter-input button:hover {
+  background-color: #0056b3;
+}
+
+/* Social Media Links */
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-social li {
+  margin-right: 20px;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #fff;
+}
+
+/* Footer Bottom */
+.footer-bottom {
   text-align: center;
-  margin: 20px 0;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-input {
+    margin-top: 20px;
+  }
+}
+
+/* Footer Social Media Links */
+.footer-social {
+  margin-top: 20px;
+  text-align: right; /* Align the icons to the right */
+
+  /* Adjust the margin to control the spacing between icons and the right edge */
+  margin-right: 20px;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-left: 627px;
+}
+
+.footer-social li {
+  margin-left: 20px; /* Add margin to the left of each icon to space them out */
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #fff;
+}
+p {
+  color: white;
+}
+.message {
+  color: white;
 }

@@ -4,6 +4,9 @@ import logoImage from "../../assets/logo.png";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Link } from "react-router-dom";
 import SlidingBanners from "../SlidingBanners/slidingbanners.js";
+import Footer from "../Footer/copyright.js";
+import OurJourney from "../OurJourney/ourjourney.js";
+
 function LandingPage() {
   return (
     <div className="landing-page">
@@ -56,19 +59,31 @@ function LandingPage() {
             <a href="/">Specialist</a>
             <ul className="dropdown-menu">
               <li>
-                <a href="/">Option 1</a>
+                <a href="/">Cardiologist</a>
               </li>
               <li>
-                <a href="/">Option 2</a>
+                <a href="/">Dermatologist</a>
               </li>
               <li>
-                <a href="/">Option 3</a>
+                <a href="/">Gastroenterologist</a>
               </li>
               <li>
-                <a href="/">Option 4</a>
+                <a href="/">Neurologist</a>
               </li>
               <li>
-                <a href="/">Option 5</a>
+                <a href="/">Orthopedic Surgeon</a>
+              </li>
+              <li>
+                <a href="/">Ophthalmologist</a>
+              </li>
+              <li>
+                <a href="/">Otolaryngologist (ENT Specialist)</a>
+              </li>
+              <li>
+                <a href="/">Pediatrician</a>
+              </li>
+              <li>
+                <a href="/">Psychiatrist</a>
               </li>
             </ul>
           </li>
@@ -76,19 +91,31 @@ function LandingPage() {
             <a href="/">Services</a>
             <ul className="dropdown-menu">
               <li>
-                <a href="/">Option 1</a>
+                <a href="/">Ambulance Service</a>
               </li>
               <li>
-                <a href="/">Option 2</a>
+                <a href="/">Emergency Services</a>
               </li>
               <li>
-                <a href="/">Option 3</a>
+                <a href="/">Medical Specialties</a>
               </li>
               <li>
-                <a href="/">Option 4</a>
+                <a href="/">Surgical Specialties</a>
               </li>
               <li>
-                <a href="/">Option 5</a>
+                <a href="/">Cancer Care</a>
+              </li>
+              <li>
+                <a href="/">Radiology and Imaging</a>
+              </li>
+              <li>
+                <a href="/">Laboratory Services</a>
+              </li>
+              <li>
+                <a href="/">Pharmacy Services</a>
+              </li>
+              <li>
+                <a href="/">Diagnostics</a>
               </li>
             </ul>
           </li>
@@ -118,6 +145,8 @@ function LandingPage() {
         </ul>
       </nav>
       <SlidingBanners />
+      <OurJourney />
+      <Footer />
 
       {/* Rest of the LandingPage component */}
     </div>

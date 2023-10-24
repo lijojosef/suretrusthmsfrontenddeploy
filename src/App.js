@@ -19,10 +19,7 @@ import UpdateDrug from "./components/PharmacyManagement/DrugOperation/UpdateDrug
 import Billing from "./components/PharmacyManagement/Billing/Billing";
 import Expiry from "./components/PharmacyManagement/Billing/Billing";
 import PharmacyHome from "./components/PharmacyManagement/Home/PharmacyHome";
-
-{
-  /*Arindam */
-}
+//Arindam
 import EmpReg from "./components/EmployeeRegistration/empreg.js";
 import SalaryCalculator from "./components/SalaryCalculator/salarycalc.js";
 import PaySlip from "./components/PaySlip/payslip.js";
@@ -30,6 +27,7 @@ import EmployeeManagement from "./components/EmployeeManagement/empmgmt.js";
 import EmpList from "./components/EmployeeManagement/viewemplist.js";
 import AfterAdminL from "./components/AfterAdminL/afteradminl.js";
 import EmpAndSal from "./components/homepage/home.js";
+import PatientDetails from "./components/PatientDetails/regform.js";
 
 function App() {
   return (
@@ -57,6 +55,8 @@ function App() {
           <Route exact path="/patientlogin" element={<PatientLogin />} />
 
           {/*Arindam */}
+          <Route path="/regform" element={<PatientDetails />} />
+
           <Route path="/home" element={<EmpAndSal />} />
           <Route path="/empreg" element={<EmpReg />} />
           <Route path="/salarycalc" element={<SalaryCalculator />} />

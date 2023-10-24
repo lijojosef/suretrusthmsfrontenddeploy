@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import SlidingBanners from "../SlidingBanners/slidingbanners.js";
 import Footer from "../Footer/copyright.js";
 import OurJourney from "../OurJourney/ourjourney.js";
+import WhyUs from "../WhyUs/whyus.js";
 
 function LandingPage() {
   return (
@@ -146,6 +147,7 @@ function LandingPage() {
       </nav>
       <SlidingBanners />
       <OurJourney />
+      {/*<WhyUs />*/}
       <Footer />
 
       {/* Rest of the LandingPage component */}

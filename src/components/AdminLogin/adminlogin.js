@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import "./adminlogin.css";
 import logo from "../../assets/logo.png";
 import img1 from "../../assets/img1.png";
-import Copyright from "../Footer/copyright.js";
+import Copyright from "../CopyRight/copyright.js";
 import { Link } from "react-router-dom";
-{/*--------- */}
+{
+  /*--------- */
+}
 function AdminLoginPage() {
   const [showPassword, setShowPassword] = useState(false);
   const [username, setUsername] = useState("");

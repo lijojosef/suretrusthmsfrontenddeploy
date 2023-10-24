@@ -1,3 +1,5 @@
+import React from "react";
+import "./copyright.css";
 {
   /*import React from "react";
 import "./copyright.css";
@@ -18,8 +20,6 @@ function Copyright() {
 export default Copyright;*/
 }
 
-import React from "react";
-import "./copyright.css";
 const Footer = () => {
   return (
     <footer className="footer-container">

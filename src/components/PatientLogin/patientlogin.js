@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./patientlogin.css";
 import logo from "../../assets/logo.png";
 import img1 from "../../assets/img3.png";
-import Copyright from "../Footer/copyright.js";
+import Copyright from "../CopyRight/copyright.js";
 import { Link } from "react-router-dom";
 function PatientLogin() {
   const [showPassword, setShowPassword] = useState(false);
@@ -58,7 +58,9 @@ function PatientLogin() {
         <div className="options">
           <span className="fp">Forgot Password?</span>
           <span className="fp"></span>
-          <span className="ca">Create Account</span>
+          <span className="ca">
+            <Link to="/regform">Create Account</Link>
+          </span>
         </div>
         <button type="submit" className="submit-btn" onClick={handleLogin}>
           Submit

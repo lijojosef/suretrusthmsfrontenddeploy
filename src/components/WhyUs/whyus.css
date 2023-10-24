@@ -1,0 +1,34 @@
+.bg-white-w {
+  background-color: #ffffff;
+}
+
+.py-8-w {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.flex-w {
+  display: flex;
+}
+.p-8-w {
+  padding: 2rem;
+}
+
+.text-lg-w {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.mb-4-w {
+  margin-bottom: 1rem;
+}
+
+.text-xl-w {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.font-bold-w-h {
+  font-weight: 200;
+}
